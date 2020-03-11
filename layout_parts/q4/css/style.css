@@ -2,4 +2,50 @@
 
 /* 回答はここに書いてね */
 
+.dtable-top , .dtable-bottom {
+  display:table;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #eff3f4;
+}
+
+.dtable-bottom {
+  padding-top: 0;
+}
+
+.dtable_c {
+  display: table-cell;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.dtable-top .left_fixed {
+  width: 100px;
+  background-color: #fdc8b8;
+}
+
+.dtable-top .center_variable {
+  background-color: #e0abd9;
+}
+
+.dtable-top .right_fixed {
+  width: 100px;
+  background-color: #b6d8ed;
+}
+
+.dtable-bottom .left_variable {
+  background-color: #e5d32e;
+}
+
+.dtable-bottom .center_variable {
+  background-color: #ec8f9a;
+}
+
+.dtable-bottom .right_fixed {
+  width: 500px;
+  background-color: #8fdcad;
+}
+
 /* 回答はここに書いてね */

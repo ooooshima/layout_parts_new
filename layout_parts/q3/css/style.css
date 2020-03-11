@@ -1,5 +1,36 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.contents {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.contents tr:nth-child(odd) {
+  background-color: #ecf1f2;
+}
+
+.contents th , .contents td {
+  padding: 10px;
+  border: solid #dedede 1px;
+}
+
+.contents th {
+  font-size: 18px;
+  line-height: 26px;
+  color: #fff;
+  background-color: #2244aa;
+}
+
+.contents td {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.total-cal {
+  border-top: dashed #000 2px;
+}
 
 /* 回答はここに書いてね */
