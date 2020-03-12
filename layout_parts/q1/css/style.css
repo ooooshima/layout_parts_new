@@ -1,10 +1,11 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.container {
-  width: 940px;
-  background-color: #eff3f4;
+.q1-container {
+  width: 900px;
   margin: 0 auto;
+  padding: 20px;
+  background-color: #eff3f4;
 }
 
 .clearfix:after {
@@ -13,24 +14,24 @@
   clear:both;
 }
 
-.content {
-  float: left;
-  background-color: #3274ae;
-  margin: 20px 0 20px 20px;
-}
-
 .content_box {
-  box-sizing: border-box;
+  float: left;
   width: 230px;
   padding: 20px;
-  background-color: #eaf4ff;
-  border: 10px solid #022336;
-  margin: 20px;
+  margin-left: 20px;
+  background-color: #3274ae;
+}
+
+.content_box:first-child {
+  margin-left: 0;
 }
 
 .content_box_text {
+  padding: 20px;
+  border: 10px solid #022336;
   font-size: 16px;
   line-height: 16px;
+  background-color: #eaf4ff;
 }
 
 /* 回答はここに書いてね */

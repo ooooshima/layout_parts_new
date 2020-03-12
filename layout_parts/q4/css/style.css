@@ -2,48 +2,51 @@
 
 /* 回答はここに書いてね */
 
-.dtable-top , .dtable-bottom {
-  display:table;
-  width: 100%;
+.q4-wrapper {
   padding: 20px;
   box-sizing: border-box;
   background-color: #eff3f4;
 }
 
-.dtable-bottom {
-  padding-top: 0;
+.q4-contents {
+  display:table;
+  width: 100%;
+  margin-bottom: 20px; 
 }
 
-.dtable_c {
+.q4-contents:last-child {
+  margin-bottom: 0;
+}
+
+.q4-contents .dtable_c {
   display: table-cell;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
 }
 
-.dtable-top .left_fixed {
+.q4-contents .contents_pink {
   width: 100px;
   background-color: #fdc8b8;
 }
 
-.dtable-top .center_variable {
+.q4-contents .contents_purple {
   background-color: #e0abd9;
 }
 
-.dtable-top .right_fixed {
+.q4-contents .contents_blue {
   width: 100px;
   background-color: #b6d8ed;
 }
 
-.dtable-bottom .left_variable {
+.q4-contents .contents_yellow {
   background-color: #e5d32e;
 }
 
-.dtable-bottom .center_variable {
+.q4-contents .contents_red {
   background-color: #ec8f9a;
 }
 
-.dtable-bottom .right_fixed {
+.q4-contents .contents_green {
   width: 500px;
   background-color: #8fdcad;
 }
