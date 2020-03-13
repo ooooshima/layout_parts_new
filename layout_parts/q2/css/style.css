@@ -8,6 +8,12 @@
   background-color: #eff3f4;
 }
 
+.clearfix {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .contents_img_left {
   float: left;
   margin: 0 20px 10px 0;

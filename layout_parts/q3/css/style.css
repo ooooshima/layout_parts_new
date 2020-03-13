@@ -1,34 +1,35 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.contents {
+.q3-contents {
   table-layout: fixed;
   width: 100%;
   border-collapse: collapse;
   text-align: center;
 }
 
-.contents tr:nth-child(odd) {
+.q3-contents tr:nth-child(odd) {
   background-color: #ecf1f2;
 }
 
-.contents tr:last-child {
+.q3-contents tr:last-child {
   border-top: dashed #000 2px;
 }
 
-.contents th , .contents td {
+.q3-contents th , .q3-contents td {
   padding: 10px;
   border: solid #dedede 1px;
+  vertical-align: middle;
 }
 
-.contents th {
+.q3-contents th {
   font-size: 18px;
   line-height: 26px;
   color: #fff;
   background-color: #2244aa;
 }
 
-.contents td {
+.q3-contents td {
   font-size: 16px;
   line-height: 22px;
 }
