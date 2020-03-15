@@ -8,7 +8,7 @@
   text-align: center;
 }
 
-.q3-contents tr:nth-child(odd) {
+.q3-contents tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
