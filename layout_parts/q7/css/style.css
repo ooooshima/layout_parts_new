@@ -2,7 +2,8 @@
 
 /* 回答はここに書いてね */
 
-.q7-box_text {
+.q7-box {
+  width: 225px;
   font-size: 16px;
 }
 
@@ -15,7 +16,6 @@
 .q7-float_box {
   box-sizing: border-box;
   float: left;
-  width:225px;
   margin-left: 50px;
 }
 
@@ -29,7 +29,6 @@
 
 .q7-table_c {
   display: table-cell;
-  width: 225px;
   padding-left: 50px;
   vertical-align: middle;
 }
@@ -38,19 +37,55 @@
   padding-left: 0;
 }
 
+.q7-inlineblock_wrapper {
+  font-size: 0;
+}
+
 .q7-inlineblock_box {
   box-sizing: border-box;
   display: inline-block;
-  width: 225px;
   margin-left: 50px;
   vertical-align: middle;
-  font-size: 16px;
 }
 
 .q7-inlineblock_box:first-child {
   margin-left: 0;
 }
 
+.q7-flex_container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
 
+.q7-flex_item {
+  box-sizing: border-box;
+}
+
+.q7-margin_wrapper {
+  font-size: 0;
+}
+
+.q7-margin_box {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.q7-margin_side {
+  width: 300px;
+}
+
+.q7-margin_main {
+  width: 100%;
+  margin-left: -300px;
+}
+
+.q7-margin_text {
+  font-size: 16px;
+}
+
+.q7-margin_main .q7-margin_text {
+  margin-left: 350px;
+}
 
 /* 回答はここに書いてね */
