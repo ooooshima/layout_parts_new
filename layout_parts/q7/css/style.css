@@ -77,15 +77,13 @@
 
 .q7-margin_main {
   width: 100%;
+  padding-left: 350px;
   margin-left: -300px;
+  box-sizing: border-box;
 }
 
 .q7-margin_text {
   font-size: 16px;
-}
-
-.q7-margin_main .q7-margin_text {
-  margin-left: 350px;
 }
 
 /* 回答はここに書いてね */
